@@ -1,3 +1,5 @@
+#Experimenting with singletons.
+
 from abc import ABCMeta, abstractclassmethod
 
 class ICar(meta=ABCMeta):
