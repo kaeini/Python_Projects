@@ -1,6 +1,6 @@
 import random
 def choose_word():
-  with open("Games/Textfiles/sowpods.txt","r") as f:
+  with open("my_dictonary.txt","r") as f:
     all_text = f.read()
     words = list(map(str, all_text.split()))
     word_choice = random.choice(words)
