@@ -18,7 +18,7 @@ def Binary_Search():
   if Found == True:
     print(f"Item found at {MidPoint}")
   elif Found == False:
-    print("Item not found")
+    print("Item not found in list")
 
 
 def Linear_Search():
