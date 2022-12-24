@@ -51,7 +51,7 @@ def Score():
 
 def Textfile(name,classes,score):
   with open('Scores.txt','a') as f:
-    text = [f"Score: {score}", f"Name: {name}", f"Class: {name}"]
+    text = [f"Score: {score}", f"Name: {name}", f"Class: {classes}"]
     f.write("\n")
     for line in text:
       f.write(line)
