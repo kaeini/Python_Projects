@@ -42,7 +42,7 @@ def Check_Complex_Questions(div1, div2, operators, answer):
       print("Correct!")
       Score()
     else:
-      print(f"Wrong! The answer was {num1 / num2}")
+      print(f"Wrong! The answer was {div1 / div2}")
 
 
 def Score():
